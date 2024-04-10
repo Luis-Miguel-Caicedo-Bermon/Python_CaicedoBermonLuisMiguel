@@ -6,7 +6,7 @@
 # el programa se detendrá; de lo contrario, se repetirá el proceso.
 
 fibo = int(input("ingresa un numero para la serie de fibonacci\n"))
-
+#d
 a=0
 b=1
 ver = True
