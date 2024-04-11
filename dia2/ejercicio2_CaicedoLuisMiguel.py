@@ -8,7 +8,7 @@ print("vamos a jugar algo")
 print("se va a crear un numero aleatorio y tendras que adivinarlo")
 print("por cada intento te daré una pista")
 print("trata de adivinarlo en la menor cantidad de intentos posibles")# son indicaciones para el usuario
-print("el numero s encuentra entre el 1 y el 100")
+print("el numero se encuentra entre el 1 y el 100")
 import random
 azar = random.randint(1,100)#se crea el numero aleatirio
 yo = True
