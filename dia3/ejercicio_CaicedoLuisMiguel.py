@@ -43,3 +43,5 @@ def numpri():#se hace una funcion
             print("NOMBRE DEL AUTOR:")
             print("Caicedo Bermon Luis Miguel")
 numpri()
+
+#DESARROLLADO POR: Caicedo Bermon Luis Miguel c.c: 1090381345
