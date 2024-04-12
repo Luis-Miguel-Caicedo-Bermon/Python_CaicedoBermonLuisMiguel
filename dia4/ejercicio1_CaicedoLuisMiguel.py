@@ -62,3 +62,5 @@ if cont5>0:#si el contador de monedas de 5 es mayor a 0
 if cont1>0:#si el contador de monedas de 1 es mayor a 0
     print("nesesitas",cont1,"monedas de 1")#se imprime la cantidad de monedas
     
+    
+#DESARROLLADO POR: Caicedo Bermon Luis Miguel c.c: 1090381345
