@@ -11,3 +11,5 @@ for i in range(len(lista)):
         su=lista[i]+lista[z]
         if su==suma:
             print(i,z) 
+
+#DESARROLLADO POR: Caicedo Bermon Luis Miguel c.c: 1090381345
