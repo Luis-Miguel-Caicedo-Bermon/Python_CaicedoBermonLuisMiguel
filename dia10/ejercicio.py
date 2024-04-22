@@ -8,3 +8,4 @@ for i in range(len(lista)):
         print(i)
     if num>lista[i] and num<lista[i+1]:
         print(i+1)
+        
