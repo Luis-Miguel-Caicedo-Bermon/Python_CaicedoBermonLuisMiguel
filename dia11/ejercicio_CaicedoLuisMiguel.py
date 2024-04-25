@@ -222,7 +222,7 @@ while ver==True:
         print("programa finalizado")
         ver=False
 
-with open("eventos.json","w") as outfile:
+with open("./dia11/large-file.json","w") as outfile:
     json.dump(datos,outfile)
 
 #DESARROLLADO POR: Caicedo Bermon Luis Miguel c.c: 1090381345
