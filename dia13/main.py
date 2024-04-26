@@ -143,10 +143,20 @@ while verdadero==True:
             print("-----")
             print(miInfo[i]["grupo"])
         pregun=input("en que grupo se encuentra el estudiante que deseas eliminar?\n")
+        xd=-1
         for i in range(len(miInfo)):
             if miInfo[i]["grupo"]==pregun:
-                ideliminar=int(input("ingresa el id del estudiante\n"))
-                for a in range(len(miInfo[i]["estudiantes"])):
-                    if miInfo[i]["estudiantes"][a]==ideliminar:
-                        del miInfo[i]["estudiantes"][a]
+                xd=i
+        ideliminar=int(input("ingresa el id del estudiante\n"))
+        xd1=-1
+        for r in range(len(miInfo[xd]["estudiantes"])):
+            if miInfo[xd]["estudiantes"][r]["id"]==ideliminar:
+                xd1=r
+        del miInfo[xd]["estudiantes"][xd1]
         guardarArchivo(miInfo)               
+
+    if x==5:
+        print("gracias por utilizar el programa")
+        verdadero=False
+
+#DESARROLLADO POR: Caicedo Bermon Luis Miguel c.c: 1090381345
